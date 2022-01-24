@@ -13,6 +13,13 @@
 > Мне кажется что Push является более надежным, так как конфигурация будет отправлятся на конечный хост только после прохождения всех циклов тестировния, что скорей всего приведет к минимизации количества ошибок.
 
 ## 3.
+
+```commandline
+pugachevvv@debian-vlad:~$ vboxmanage --version
+6.1.32r149290
+pugachevvv@debian-vlad:~$ 
+```
+
 ```commandline
 pugachevvv@debian-vlad:~$ vagrant --version
 Vagrant 2.2.14
@@ -33,3 +40,11 @@ ansible [core 2.12.1]
 pugachevvv@debian-vlad:~$ 
 ```
 
+## 4.
+
+```commandline
+vagrant@server1:~$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+vagrant@server1:~$ 
+
+```
